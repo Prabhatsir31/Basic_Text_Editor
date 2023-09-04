@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label
+{
+    font-size :20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+input
+{
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 50px;
+    width: 50%;
+    border: 5px solid transparent;
+    margin-bottom: 15px;
+}
+p
+{
+    width: 90%;
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.white
+{
+    Color:white;
+    text-shadow:0px 0px 1px black;
+}
+.red{
+    color:red;
+}
+.green{
+    Color:green;
+}
+.blue{
+    Color:blue;
+}
+.yellow{
+    Color:yellow;
+}
+.orange{
+    Color:orange;
+}
+.violet{
+    Color:violet;
+}
+.indigo{
+    color:indigo;
+}
+.pink{
+    Color:pink;
+}
+.maroon{
+    Color:maroon;
+}
+.brown{
+    Color:brown;
+}
+.grey{
+    Color:grey;
+}
+.bgblack{
+    Background-color:black;
+    Color:white;
+}
+.bgred{
+    Background-color:red;
+}
+.bggreen{
+    Background-color:green;
+}
+.bgblue{
+    Background-color:blue;
+}
+.bgyellow{
+    Background-color:yellow;
+}
+.bgorange{
+    Background-color:orange;
+}
+.bgviolet{
+    Background-color:violet;
+}
+.bgindigo{
+    Color:grey;
+    Background-color:indigo;
+}
+.bgpink{
+    Background-color:pink;
+}
+.bgmaroon{
+    Background-color:maroon;
+}
+.bgbrown{
+    Background-color:brown;
+}
+.bggrey{
+    Background-color:grey;
+}
+.bgrainbow{
+    color:grey; 
+    background:linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+}
+.sans-serif{
+    Font-family:sans-serif;
+}
+.serif{
+    font-family:serif;
+}
+.monospace{
+    font-family:monospace;
+}
+.cursive{
+    font-family:cursive;
+}
+.fantasy{
+    font-family:fantasy;
+}
+.italic{
+    font-style:italic;
+}
+.rb{
+    text-shadow:3px 3px 4px black;
+}
+.lb{
+    text-shadow:-3px 3px 4px black;
+}
+.rt{
+    text-shadow:3px -3px 4px black;
+}
+.lt{
+    text-shadow:-3px -3px 4px black;
+}
+lalr{
+    animation:lr 2s linear infinite;
+}
+@keyframes lr{
+    0%{
+        text-align:100%;
+    }
+    100%{
+        text-align:0%;
+    }
+}
+.alr{
+    display:none;
+}
